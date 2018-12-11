@@ -1,0 +1,7 @@
+direction: west
+greet: Hello
+
+service:
+  config:
+    id: 200
+    source: files

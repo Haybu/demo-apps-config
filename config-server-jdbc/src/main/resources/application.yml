@@ -1,0 +1,21 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  profiles:
+    active:
+      - jdbc
+  cloud:
+    config:
+      server:
+        jdbc:
+          sql: SELECT token as key, value from properties where application=? and profile=? and label=?
+          order: 1
+  datasource:
+    initialization-mode: embedded
+
+
+
+

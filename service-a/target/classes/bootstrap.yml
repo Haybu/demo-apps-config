@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: service-a
+  cloud:
+    config:
+      fail-fast: true
+      # localhost:8888 is the default if not specified
+      uri: http://localhost:8888

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "service.config",
+      "type": "io.agilehandy.config.ConfigProperties",
+      "sourceType": "io.agilehandy.config.ConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "service.config.id",
+      "type": "java.lang.Long",
+      "sourceType": "io.agilehandy.config.ConfigProperties"
+    },
+    {
+      "name": "service.config.source",
+      "type": "java.lang.String",
+      "sourceType": "io.agilehandy.config.ConfigProperties"
+    }
+  ],
+  "hints": []
+}
